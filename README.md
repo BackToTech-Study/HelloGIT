@@ -1,0 +1,2 @@
+# HelloGIT
+Exercises in GIT
