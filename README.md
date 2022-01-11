@@ -309,6 +309,17 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
 
 ## Other topics
 - [ ] Resolve conflicts
-- [ ] Revert change
+- [ ] Restore a changed file
+
+    * To restore a file, that was changes but not yet staged for commit, use the command [`git restore`](https://git-scm.com/docs/git-restore)
+
+        1. Change `src\index.html`
+        2. Observer the result of `git status`
+        3. Restore `src\index.html`
+        ```
+            git restore src\index.html
+        ```
+        4. Observer the result of `git status`
+        
 - [ ] View history 
 - [ ] Compare with history 
