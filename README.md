@@ -320,6 +320,13 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
             git restore src\index.html
         ```
         4. Observer the result of `git status`
-        
+
+- [ ] [Github Squashing commits](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/squashing-commits)
+    * Squashing allows you to combine multiple commits in your branch's history into a single commit. This can help keep your repository's history more readable and understandable.
+
+    * In github when merging a pull request you can choose the option of squashing togheter all the commits done on that branch. This reduces the size of the git history.
+
+    ![image](Resources/Squash.PNG)
+
 - [ ] View history 
 - [ ] Compare with history 
