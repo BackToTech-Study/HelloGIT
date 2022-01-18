@@ -248,7 +248,7 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
 
 - [x] Make review
 
-    * A reviewer can chack the proposed changes in the pull cretated pull request.
+    * A reviewer can check the proposed changes in the cretated pull request.
         ![image](Resources/Review.PNG)
 
     * A reviewer can also add comments to the pull request.
