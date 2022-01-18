@@ -309,6 +309,24 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
 
 ## Other topics
 - [ ] Resolve conflicts
-- [ ] Revert change
+- [ ] Restore a changed file
+
+    * To restore a file, that was changes but not yet staged for commit, use the command [`git restore`](https://git-scm.com/docs/git-restore)
+
+        1. Change `src\index.html`
+        2. Observer the result of `git status`
+        3. Restore `src\index.html`
+        ```
+            git restore src\index.html
+        ```
+        4. Observer the result of `git status`
+
+- [ ] [Github Squashing commits](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/squashing-commits)
+    * Squashing allows you to combine multiple commits in your branch's history into a single commit. This can help keep your repository's history more readable and understandable.
+
+    * In github when merging a pull request you can choose the option of squashing togheter all the commits done on that branch. This reduces the size of the git history.
+
+    ![image](Resources/Squash.PNG)
+
 - [ ] View history 
 - [ ] Compare with history 
