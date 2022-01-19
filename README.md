@@ -330,8 +330,13 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
 
 - [x] View history 
 - [ ] Compare with history 
+- [x] Remove a tracked file
 
-## Summary of most used
+1. Add the file to .gitignore
+2. Remove the file from the index `git rm --cached filename`
+3. Commit the change `git commit -m "Removed tracking for filename"`
+
+## Summary of most used commands
 
     1. git switch main 
     2. git pull
