@@ -336,6 +336,16 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
 2. Remove the file from the index `git rm --cached filename`
 3. Commit the change `git commit -m "Removed tracking for filename"`
 
+- [x] Stash uncommited changes 
+
+    * Stash allows you to save some changes for later while you work on something else. For example if you want to switch to another branch but you still have uncommited changes on your current branch.
+
+
+    * To stash uncommited changes you can use `git stash push`
+    * You can then change branches and work on someting else. When you are ready to return to your work you can use `git stash apply` to restore stashed changes.
+    * You can create and trach multiple stashes. To see a list of stashes use the command `git stash list`
+
+
 ## Summary of most used commands
 
     1. git switch main 
