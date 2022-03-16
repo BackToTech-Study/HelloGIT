@@ -363,6 +363,8 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
   - You can then change branches and work on someting else. When you are ready to return to your work you can use `git stash apply` to restore stashed changes.
   - You can create and trach multiple stashes. To see a list of stashes use the command `git stash list`
 
+- [x] To rename a branch use the command: `git branch --move feature/tomove feature/ToBeMoved`
+
 ## Summary of most used commands
 
     1. git switch main
