@@ -13,7 +13,6 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
 
     ![image](Resources/GitHubNewRepo.PNG)
 
-
 - [x] Clone the repository: 
     
     * Get the repository address from github
