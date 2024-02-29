@@ -341,6 +341,10 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
 
     4. Observer the result of `git status`
 
+- [x] If you want to undo a commit you can use `git reset --soft HEAD~1` to keep the changes in the working directory or `git reset --hard HEAD~1` to discard the changes.
+
+- [x] If you want to undo a commit that was already pushed to the server you can use `git revert` to create a new commit that undoes the changes made by the previous commit.
+
 - [x] [Github Squashing commits](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/squashing-commits)
 
   - Squashing allows you to combine multiple commits in your branch's history into a single commit. This can help keep your repository's history more readable and understandable.
