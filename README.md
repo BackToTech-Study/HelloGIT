@@ -220,6 +220,8 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
   - To commit/save changes to the github local repository you can use the command [`git commit -m`](https://git-scm.com/docs/git-commit)
 
   - You will need to provide a commit message. This will be used later, in the git history, to identify changes made, so make it descriptive for the changes you made but keep it short.
+  - A good commit message is the continuation of "This commit will ..."
+  - When writing commit messages for pull requests, use squash commits and apply rules like the ones defined by (conventional commits)[https://www.conventionalcommits.org/en/v1.0.0/]. This way you can generate a changelog automatically.
 
   ```
       git commit -m "intiated the exercise content"
@@ -364,6 +366,8 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
   - You can create multiple stashes. To see a list of stashes use the command `git stash list`
 
 - [x] To rename a branch use the command: `git branch --move feature/tomove feature/ToBeMoved`
+
+- [x] To view commit messages use the command `git log`
 
 ## Summary of most used commands
 
