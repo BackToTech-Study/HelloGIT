@@ -361,7 +361,7 @@ NOTE: This is not a definitive guide on git and git hub. It just follows one sim
 
   - To stash uncommited changes you can use `git stash push`
   - You can then change branches and work on someting else. When you are ready to return to your work you can use `git stash apply` to restore stashed changes.
-  - You can create and trach multiple stashes. To see a list of stashes use the command `git stash list`
+  - You can create multiple stashes. To see a list of stashes use the command `git stash list`
 
 - [x] To rename a branch use the command: `git branch --move feature/tomove feature/ToBeMoved`
 
